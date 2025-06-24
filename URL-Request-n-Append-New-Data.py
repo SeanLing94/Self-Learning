@@ -1,3 +1,13 @@
+# About the task 
+# Following a recent event, we collected feedback from attendees. Use that data to update our CRM contact log for each attendee, and update any records that are missing data or are outdated.
+# Use the CRM Data API to collect the latest CRM data.
+# Use the Form Submission API to collect the event feedback form submission data.
+# Create a new CSV file to update the CRM given the feedback data provided from the event.
+# The CSV file must be named crm_update.csv.
+# The CSV file must have the following columns: id, first, last, email, phone, last contact date, last contact text, all contact text.
+# Submit your solution through the "Submit New Work" button.
+# You can submit your solution as many times as you like. We will only mark the latest submission.
+
 import requests
 import pandas as pd
 import re
